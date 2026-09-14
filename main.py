@@ -331,5 +331,5 @@ async def math_game(ctx):
         active_games.pop(user_id, None)
 
 
-# Thay 'YOUR_BOT_TOKEN' bằng Token bot Discord của bạn
+# Thay 'TOKEN' bằng Token bot Discord của bạn
 bot.run(os.getenv("TOKEN"))
